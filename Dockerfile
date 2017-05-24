@@ -15,4 +15,4 @@ COPY app/ /app
 WORKDIR /app
 
 ENTRYPOINT ["Rscript"]
-CMD ["test.R"]
+CMD ["app.R"]
