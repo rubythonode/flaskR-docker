@@ -1,1 +1,4 @@
 # flaskR
+
+docker build .
+
