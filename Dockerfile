@@ -1,4 +1,4 @@
-FROM r-base:3.4.0
+FROM r-base:latest
 MAINTAINER chanyub.park "mrchypark@gmail.com"
 
 RUN apt-get update && apt-get install -y python-pip python-dev build-essential libssl-dev libffi-dev
